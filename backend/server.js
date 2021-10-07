@@ -7,7 +7,7 @@ const authRoutes = require("./routes/authrout");
 const app = express();
 /****************************************************** */
 const URI =
-  "mongodb+srv://Aravind:Aravind@mongo@cluster0-zdpsw.mongodb.net/blogger?retryWrites=true&w=majority";
+  "mongodb+srv://Aravind:Aravin@cluster0-zdpsw.mongodb.net/blogger?retryWrites=true&w=majority";
 port = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyparser.json());
